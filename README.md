@@ -1,5 +1,25 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+## Use Appwrite
+
+Appwrite is a backend platform for developing Web, Mobile, and Flutter applications. Built with the open source community and optimized for developer experience in the coding languages you love.
+
+- Go to the [Appwrite](https://appwrite.io/) website and create a new account
+
+- In the projects section create a new project with any name you like
+
+- Add the platform of Web App then give your app name as you like hostname as localhost
+
+- To you will get the command to install the npm package of appwrite dont worry it is already installed
+
+```bash
+npm install appwrite
+# or
+yarn add appwrite
+```
+
+- Then in the end you will get a end point and project id add those in a `.env` file with name `NEXT_PUBLIC_APPWRITE_URL` and `NEXT_PUBLIC_APPWRITE_PROJECT_ID` respectively
+
 ## Getting Started
 
 First, run the development server:
